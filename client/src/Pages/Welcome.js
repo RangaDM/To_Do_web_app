@@ -27,3 +27,23 @@ export default function Welcome() {
     </>
   );
 }
+
+
+{/* <div>
+                <div
+                  style={{ display: "flex", flexDirection: "column", flex: 2 }}
+                >
+                  <div
+                    className="h-full flex items-center justify-center"
+                    style={{ flex: 2, position: "relative" }}
+                  >
+                    <h1 className="absolute top-8 left-24 right-24 text-green-950 text-2xl font-bold ">
+                      <span className="font-serif font-extrabold">
+                        {" "}
+                        WELCOME TO YOUR PRODUCTIVITY
+                      </span>{" "}
+                      HUB
+                    </h1>
+                  </div>
+                </div>
+              </div> */}

@@ -5,7 +5,6 @@ const ContactUs = require('../models/ContactUsMod');
 router2.post('/save-ContactUs', async (req, res) => {
   const newContact = new ContactUs(req.body);
   try {
-
     await newContact.save();
     res.status(201).send({ message: 'Contact saved successfully' });
   } catch (error) {

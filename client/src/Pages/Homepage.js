@@ -9,7 +9,6 @@ import { useHistory } from "react-router-dom";
 
 function Homepage() {
   const history = useHistory();
-
   const dispatch = useDispatch();
   const user = useSelector(selectUser);
   const [userEmail, setEmail] = useState("");
